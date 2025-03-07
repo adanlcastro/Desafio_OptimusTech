@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --font-principal: "Inter";
+    --cor-fundo: #FFFFFF;
+    --cor-fundo-secundario: #D0D5DD;
+    --cor-principal: #8E2424;
+    --cor-titulo: #101828;
+    --cor-texto: #667085;
+}
+
+body{
+    font-family: var(--font-principal);
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--cor-texto);
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    margin: 1rem 5rem;
+    padding: 1 rem;
+}
+
+.header__logo{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0 7rem 0 0;
+}
+
+.header__logo-text{
+    color: #3A404E;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.header__nav{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 19rem 0 0;
+}
+
+.header__nav-link,
+.header__buttons-login,
+.header__buttons-signup
+{
+    text-decoration: none;
+    color: var(--cor-texto);
+}
+
+.header__buttons{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header__buttons-signup{
+    padding: 0.7rem 1.1rem;
+    background: var(--cor-principal);
+    color: var(--cor-fundo);
+    border-radius: 0.5rem;
+}
