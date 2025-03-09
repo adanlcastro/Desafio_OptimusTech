@@ -24,15 +24,15 @@ body{
 .header{
     display: flex;
     align-items: center;
+    justify-content: flex-start;
     margin: 1rem 5rem;
-    padding: 1 rem;
+    gap: 2rem;
 }
 
 .header__logo{
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    padding: 0 10% 0 0;
 }
 
 .header__logo-text{
@@ -43,9 +43,10 @@ body{
 
 .header__nav{
     display: flex;
+    justify-content: flex-start;
     align-items: center;
+    margin-right: auto;
     gap: 2rem;
-    padding: 0 20% 0 0;
 }
 
 .header__nav-link,
@@ -58,6 +59,7 @@ body{
 
 .header__buttons{
     display: flex;
+    justify-content: flex-end;
     align-items: center;
     gap: 2rem;
 }
@@ -98,8 +100,9 @@ body{
 
 .stats{
     display: flex;
-    align-items: center;
-    margin: 0 5% 10% 5%;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 0 5% 0;
     gap: 1rem
 }
 
@@ -117,7 +120,38 @@ body{
 }
 
 .stats__description{
+    width: 250px; /* Define uma largura fixa */
+    display: flex;
     font-size: 1rem ;
     font-weight: 400;
     color: var(--cor-texto);
+}
+
+.jobs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.jobs__tag{
+    background: rgba(142, 36, 36, 0.05);
+    color: var(--cor-principal);
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
+
+.jobs__title{
+    color: var(--cor-titulo);
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.jobs__description{
+    color: var(--cor-texto);
+}
+
+.jobs__image{
+    margin: 2% 0;
+
 }
