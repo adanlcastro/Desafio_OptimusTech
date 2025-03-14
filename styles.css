@@ -155,3 +155,71 @@ body{
     margin: 2% 0;
 
 }
+
+.jobs-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5% 20%;
+    gap: 1rem
+}
+
+.jobs-list__item{
+    border: 1.5px solid #eeeeee;
+    border-radius: 16px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.jobs-list__details{
+    display: flex;
+    gap: 2rem;
+}
+
+.jobs-list__category{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0 0 2% 0;
+}
+
+.jobs-list__title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 5%;
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    padding: 5%;
+    gap: 2rem;
+}
+
+.testimonials__content,
+.testimonials__author{
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.testimonials__tag{
+    font-size: 0.9rem;
+    color: var(--cor-principal);
+}
+
+.testimonials__quote{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--cor-titulo);
+}
+
+.testimonials__avatar{
+}
