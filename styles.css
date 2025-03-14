@@ -39,6 +39,7 @@ body{
     color: #3A404E;
     font-size: 1.1rem;
     font-weight: 500;
+    padding: 0 3rem 0 0;
 }
 
 .header__nav{
@@ -195,7 +196,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 0 5%;
+    margin: 0 5% 5% 5%;
     background: rgba(142, 36, 36, 0.05);
     border-radius: 16px;
     padding: 5%;
@@ -207,6 +208,7 @@ body{
     margin: 0 5%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 1em;
 }
 
@@ -221,5 +223,51 @@ body{
     color: var(--cor-titulo);
 }
 
-.testimonials__avatar{
+.testimonials__avatar {
+    height: 45px;
+ 
+}
+
+.footer{
+    background: #F9FAFB;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.footer__title {
+    font-size: 2.2rem;
+    color: var(--cor-titulo);
+    font-weight: 600;
+}
+
+.footer__form{
+    display: flex;
+    gap: 1em;
+    margin: 2% 0;
+}
+
+.footer__input {
+    padding: 1em;
+    border: 1px solid #e7e7e7;;
+    border-radius: 8px;
+    text-align: left;
+    width: 260px;
+}
+
+.footer__button{
+    padding: 10px 20px;
+    background: var(--cor-principal);
+    color: var(--cor-fundo);
+    border: none;
+    border-radius: 8px;
+}
+
+.footer__copyright{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #98A2B3;
 }
